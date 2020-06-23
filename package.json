@@ -13,6 +13,14 @@
   "files": [
     "src/**"
   ],
+  "release": {
+    "extends": [
+      "@nfrastructuredev/semantic-release-config"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/nfrastructuredev"
+  },
   "authors": [
     "Chuck \"MANCHUCK\" Reeves <chuck.reeves@zones.com>"
   ],
@@ -22,6 +30,7 @@
   },
   "homepage": "https://github.com/nfrastructuredev/eslint-config#readme",
   "dependencies": {
+    "@nfrastructuredev/semantic-release-config": "^1.1.2",
     "eslint": "^7.3.0",
     "eslint-config-google": "^0.14.0"
   }
