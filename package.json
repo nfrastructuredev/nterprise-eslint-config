@@ -1,5 +1,5 @@
 {
-  "name": "@nfrastructuredev/eslint-config",
+  "name": "@nterprise/eslint-config",
   "version": "1.0.1",
   "description": "Configuration for nterprise application",
   "main": "src/index.js",
@@ -8,30 +8,32 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nfrastructuredev/eslint-config.git"
+    "url": "git+https://github.com/nterprise/eslint-config.git"
   },
   "files": [
     "src/**"
   ],
   "release": {
     "extends": [
-      "@nfrastructuredev/semantic-release-config"
+      "@nterprise/semantic-release-config"
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/nfrastructuredev"
+    "registry": "https://npm.pkg.github.com/nterprise"
   },
   "authors": [
     "Chuck \"MANCHUCK\" Reeves <chuck.reeves@zones.com>"
   ],
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/nfrastructuredev/eslint-config/issues"
+    "url": "https://github.com/nterprise/eslint-config/issues"
   },
-  "homepage": "https://github.com/nfrastructuredev/eslint-config#readme",
+  "homepage": "https://github.com/nterprise/eslint-config#readme",
   "dependencies": {
-    "@nfrastructuredev/semantic-release-config": "^1.1.2",
     "eslint": "^7.3.0",
     "eslint-config-google": "^0.14.0"
+  },
+  "devDependencies": {
+    "@nterprise/semantic-release-config": "^1.1.2"
   }
 }
