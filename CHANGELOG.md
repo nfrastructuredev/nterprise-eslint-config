@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/nterprise/eslint-config/compare/v1.0.1...v1.0.2) (2020-06-24)
+
+
+### Features
+
+* **force-release:** update package name ([92e22bd](https://github.com/nterprise/eslint-config/commit/92e22bda7c6217e27bcd24dabc382d64a09695d8))
+
 ## [1.0.1](https://github.com/nfrastructuredev/eslint-config/compare/v1.0.0...v1.0.1) (2020-06-23)
 
 
