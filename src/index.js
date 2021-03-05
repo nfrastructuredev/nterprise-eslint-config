@@ -20,6 +20,9 @@ module.exports = {
         'eslint:recommended',
         'google',
     ],
+    'plugins': [
+        'unicorn',
+    ],
     'rules': {
         'curly': 'error',
         'operator-linebreak': [
@@ -41,5 +44,11 @@ module.exports = {
             },
         ],
         'no-console': 'error',
+        'unicorn/filename-case': [
+            'error',
+            {
+                'case': 'camelCase',
+            },
+        ],
     },
-}
+};
