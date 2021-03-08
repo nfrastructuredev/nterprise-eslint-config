@@ -30,10 +30,11 @@
   },
   "homepage": "https://github.com/nterprise/eslint-config#readme",
   "dependencies": {
-    "eslint": "^7.3.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint": "^7.21.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-unicorn": "^28.0.2"
   },
   "devDependencies": {
-    "@nterprise/semantic-release-config": "^1.1.2"
+    "@nterprise/semantic-release-config": "^1.2.0"
   }
 }
